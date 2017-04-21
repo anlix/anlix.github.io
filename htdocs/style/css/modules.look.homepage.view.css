@@ -1,0 +1,147 @@
+.view-mysite {
+    min-height: 100px;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0!important;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+.view-mysite .li-1 {
+    flex: 8;
+    -webkit-flex: 8;
+    padding: 0;
+    min-width: 425px;
+    margin: 0 10px;
+    /*display: flex;
+                  display: -webkit-flex;
+                  flex-flow: wrap;*/
+    /*.left {
+                      min-width:400px;
+                      max-width:600px;
+                  }
+
+                  .right {
+                      margin-left:22px;
+                  }*/
+}
+.view-mysite .li-1 > li {
+    background-color: #fff;
+    padding: 0 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.view-mysite .li-2 {
+    background-color: #fff;
+    flex: 3;
+    -webkit-flex: 3;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 380px;
+    margin: 0 10px;
+}
+.view-mysite .li-2 img {
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+.view-mysite .li-2 h4 {
+    font-weight: 700;
+}
+.view-mysite .li-2 form {
+    border: 1px solid #ddd;
+    margin: 20px 10px 0 10px;
+    border-radius: 6px;
+    padding: 0 15px 20px 15px;
+    text-align: left;
+}
+.view-mysite .li-2 form label {
+    color: #555;
+    margin-top: 13px;
+    cursor: default;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+.view-mysite .li-2 form input {
+    margin-left: 4px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    padding-left: 8px;
+    outline: none;
+    height: 26px;
+    line-height: 26px;
+    box-sizing: border-box;
+    font-size: inherit;
+    width: 72%;
+}
+.view-mysite .li-2 form input:hover {
+    transition: all 0.1s ease;
+    background-color: #f5f5f5;
+    height: 30px;
+    line-height: 30px;
+}
+.view-mysite .li-2 form h4 {
+    text-align: center;
+}
+.view-mysite .li-2 form .button-bar {
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 10px;
+}
+.view-mysite .li-2 form .button-bar button {
+    flex: 1;
+    border-radius: 4px;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.view-mysite .li-2 form .button-bar button:first-child {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+.view-mysite .li-2 form .button-bar button:last-child {
+    margin-left: 30px;
+    background-color: #ff6a00;
+    border: none;
+    color: #fff;
+}
+.view-mysite .li-2 .anotherpage {
+    margin: 10px 0;
+    background-color: #ff6a00;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+@media (max-width: 990px) and (min-width: 771px) {
+    .view-mysite input {
+      width: 88% !important;
+    }
+}
+@media (max-width: 770px) {
+    .view-mysite input {
+      width: 80% !important;
+    }
+}
+@media (min-width: 780px) {
+    .view-mysite .left {
+      width: 50%;
+      float: left;
+      padding-right: 18px;
+      box-sizing: border-box;
+    }
+    .view-mysite .right {
+      width: 50%;
+      float: left;
+      padding-left: 18px;
+      box-sizing: border-box;
+    }
+}
